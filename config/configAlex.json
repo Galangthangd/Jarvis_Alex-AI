@@ -1,0 +1,196 @@
+{
+  "intents": [
+	{
+      "tag": "Alarm",
+      "utterances": [
+        "báo thức"
+      ],
+      "response": [
+        "Mình đã cài báo thức",
+        "Ok bạn nha"
+      ]
+    },
+    {
+      "tag": "Bootup",
+      "utterances": [
+        "This is bootup"
+      ],
+      "response": [
+        "Chào {username}, Alex sẵn sàng làm nhiệm vụ",
+        "Chào {username}, hệ thống sẽ ổn định trong vài giây"
+      ]
+    },
+	{
+      "tag": "Capacities",
+      "utterances": [
+        "Có thể làm gì",
+        "Làm được những gì",
+        "Làm được gì"
+      ],
+      "response": [
+        "Bot có thể giúp bạn thực hiện các câu lệnh sau đây: 1. Thông báo ngày giờ, 2. Tìm kiếm mọi thứ, 3. Đọc báo, tin mới, 4. Gửi email, 5. Dự báo thời tiết, 6. Mở video nhạc, 7. Kể bạn chuyện cười, 8. Đặt báo thức, 9. Đặt nhắc nhở, 10. Thay đổi ngôn ngữ"
+      ]
+    },
+	{
+      "tag": "Changeos",
+      "utterances": [
+        "Jarvis",
+        "Đổi trợ lý",
+        "Chuyển trợ lý",
+        "Đổi sang",
+        "Đổi ngôn ngữ",
+        "Chuyển sang"
+      ],
+      "response": [
+        "Ok",
+        "Khởi động Jarvis",
+        "Chuyển sang Jarvis"
+      ]
+    },
+	{
+      "tag": "Chat",
+      "utterances": [
+        "nói chuyện",
+        "chat"
+      ],
+      "response": [
+        "Ok"
+      ]
+    },
+	{
+      "tag": "Definition",
+      "utterances": [
+        "tìm kiếm",
+        "tìm"
+      ],
+      "response": [
+        "Thông tin về: {things}",
+        "Kết quả về: {things}"
+      ],
+      "error": [
+        "Xin lỗi bạn, không có tin tức về {things}",
+        "Mình không tìn được gì về {things}",
+        "Xin lỗi, mình không tìm thấy {things}",
+        "Mình không tìm thấy {things}"
+      ]
+    },
+	{
+      "tag": "Error",
+	  "utterances": [
+        "error"
+      ],
+      "response": [
+        "Ui, có lỗi sảy ra",
+        "Mình không tìm thấy cái bạn cần",
+        "Có lỗi mất rồi "
+      ]
+    },
+    {
+      "tag": "Greeting",
+      "utterances": [
+        "Này bot",
+        "Alex",
+        "Hey",
+        "Bạn ơi",
+        "Bot ơi",
+        "Dậy đi",
+        "Bạn ở đấy không",
+        "Hi",
+        "Hello"
+      ],
+      "response": [
+        "Chào bạn, bạn cần giúp gì ạ",
+        "Mình giúp được gì nào",
+        "Mình ở đây",
+        "Bạn đang nghĩ gì",
+        "Mình nè"
+      ]
+    },
+    {
+      "tag": "Introduce",
+      "utterances": [
+        "Bạn là cái gì",
+        "Bạn là gì",
+        "Bạn là ai"
+      ],
+      "response": [
+        "Mình xin tự giới thiệu : mình là Alex, trợ lý ảo của bạn. Luôn có mặt hai tư trên bảy !",
+        "Mình là Alex, AI ở đây để giúp bạn !",
+        "Mình Alex nè !",
+        "Mình tên là Alex, trợ lý ảo của bạn !"
+      ]
+    },
+    {
+      "tag": "Playsong",
+      "utterances": [
+        "chơi",
+        "nhạc",
+        "bài hát",
+        "bài"
+      ],
+      "response": [
+        "Đang chơi bài :{song}",
+        "Bật bài :{song}",
+        "Mình mở bài :{song}",
+        "Mình chơi bài :{song}"
+      ]
+    },
+    {
+      "tag": "Readnews",
+      "utterances": [
+        "Đọc báo",
+        "Tin tức",
+        "Tức về",
+        "Báo về",
+        "Tin mới"
+      ],
+      "response": [
+        "Tiêu đề : {title}, Miêu tả : {description}"
+      ],
+      "error": [
+        "Xin lỗi bạn, không có tin tức về {queue}",
+        "Mình không tìn được gì về {queue}",
+        "Xin lỗi, mình không tìm thấy {queue}",
+        "Mình không tìm thấy {queue}"
+      ]
+    },
+    {
+      "tag": "Time",
+      "utterances": [
+        "Thời gian",
+        "Mấy giờ",
+        "Bây giờ là"
+      ],
+      "response": [
+        "Bây giờ là {hour}:{minute} {midday}, ngày {day} tháng {month}",
+        "Hiện là {hour}:{minute} {midday}, ngày {day} tháng {month}"
+      ]
+    },
+    {
+      "tag": "Translation",
+      "utterances": [
+        "translate",
+        "how to speak"
+      ],
+      "response": []
+    },
+    {
+      "tag": "Weather",
+      "utterances": [
+        "Thời tiết",
+        "Ngoài trời",
+        "Nắng",
+        "Nóng",
+        "Lạnh",
+        "Mưa"
+      ],
+      "response": [
+        "Hôm nay là ngày {day} tháng {month} năm {year}. Mặt trời mọc vào {hourrise} giờ {minrise} phút. Mặt trời lặn vào {hourset} giờ {minset} phút. Nhiệt độ trung bình là {temp} độ C. Áp suất không khí là {pressure} héc tơ Pascal. Độ ẩm là {humidity}%. Ngoài trời đang có {weather}.",
+        "Mặt trời mọc vào {hourrise} giờ {minrise} phút. Mặt trời lặn vào {hourset} giờ {minset} phút. Nhiệt độ trung bình là {temp} độ C. Áp suất không khí là {pressure} héc tơ Pascal. Độ ẩm là {humidity}%. Ngoài trời đang có {weather}.",
+        "Ngày {day} tháng, Nhiệt độ trung bình là {temp} độ C. Áp suất không khí là {pressure} héc tơ Pascal. Độ ẩm là {humidity}%. Ngoài trời đang có {weather}.",
+        "Hôm nay ngày {day}. Nhiệt độ trung bình là {temp} độ C. Độ ẩm là {humidity}%. Ngoài trời đang có {weather}.",
+        "Dự báo cho ngày {day}. Nhiệt độ trung bình là {temp} độ C. Ngoài trời đang có {weather}."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "intents": [
+	{
+      "tag": "Alarm",
+      "utterances": [
+        "set alarm"
+      ],
+      "response": [
+        "sure sir.",
+        "ok sir.",
+        "alarm set for you."
+      ]
+    },
+    {
+      "tag": "Bootup",
+      "utterances": [
+        "This is bootup"
+      ],
+      "response": [
+        "Hello {username}",
+        "Welcome back {username}",
+        "Welcome to your universe {username}",
+        "It good to be back {username}"
+      ]
+    },
+	{
+      "tag": "Capacities",
+      "utterances": [
+        "what can you do",
+        "what your capacities"
+      ],
+      "response": [
+        "I can assist you with a variety of tasks as best I can. 24 hours a day, seven days a week. Importing all preferences from home interface"
+      ]
+    },
+	{
+      "tag": "Changeos",
+      "utterances": [
+        "Alex",
+        "Change to",
+        "Change system",
+        "Change assistant",
+        "Change language"
+      ],
+      "response": [
+        "Ok...",
+        "Restarting...",
+        "Lauch Alex engine...",
+        "System change to Alex..."
+      ]
+    },
+	{
+      "tag": "Chat",
+      "utterances": [
+        "chating",
+        "chat"
+      ],
+      "response": [
+        "Ok"
+      ]
+    },
+	{
+      "tag": "Definition",
+      "utterances": [
+        "Find",
+        "What is",
+        "Who is",
+        "Find"
+      ],
+      "response": [
+        "Info about: {things}",
+        "I find : {things}",
+        "Results about: {things}"
+      ],
+      "error": [
+        "Sorry, there are nothing about {things}",
+        "I can't find anything about {things}"
+      ]
+    },
+	{
+      "tag": "Error",
+	  "utterances": [
+        "error" 
+      ],
+      "response": [
+        "Oops! There was an error",
+        "Something is wrong",
+        "Sorry, i can't find what you're looking for."
+      ]
+    },
+    {
+      "tag": "Greeting",
+      "utterances": [
+        "jarvis",
+        "hey",
+        "you there",
+        "are you up",
+        "wake up",
+        "hello",
+        "hi"
+      ],
+      "response": [
+        "Hello Sir, how may i help you?",
+        "How may i help you?",
+        "At your service",
+        "I'm here sir'",
+        "What on your mind",
+        "Hello Sir, always at your service",
+        "Always at your service"
+      ]
+    },
+    {
+      "tag": "Introduce",
+      "utterances": [
+        "who are you",
+        "what are you"
+      ],
+      "response": [
+        "Allow me to introduce myself: I am Jarvis, the virtual artificial intelligence and I'm here to assist you with a variety of tasks as best I can. 24 hours a day, seven days a week. Importing all preferences from home interface",
+        "I am Jarvis, the virtual artificial intelligence",
+        "I am Jarvis, your personal assistant"
+      ]
+    },
+    {
+      "tag": "Playsong",
+      "utterances": [
+        "song",
+        "play song",
+        "play "
+      ],
+      "response": [
+        "Now playing : {song}",
+        "Now play : {song}",
+        "Play : {song}",
+        "Playing : {song}"
+      ]
+    },
+    {
+      "tag": "Readnews",
+      "utterances": [
+        "newspaper",
+        "news"
+      ],
+      "response": [
+        "Title : {title}, Description : {description},"
+      ],
+      "error": [
+        "Sorry, there are nothing about {queue}",
+        "I can't find anything about {queue}"
+      ]
+    },
+    {
+      "tag": "Time",
+      "utterances": [
+        "the time",
+        "may i know the time",
+        "what time now",
+        "what time is it",
+        "current time"
+      ],
+      "response": [
+        "Now is {hour}:{minute} {midday}, {dateMonthName},{year}",
+        "Current time is {hour}:{minute} {midday}, {dateMonthName},{year}"
+      ]
+    },
+    {
+      "tag": "Translation",
+      "utterances": [
+        "translate",
+        "how to speak"
+      ],
+      "response": []
+    },
+    {
+      "tag": "Weather",
+      "utterances": [
+        "weather",
+        "outside",
+        "cloudy",
+        "sunny",
+        "rain"
+      ],
+      "response": [
+        "Today is {day} month {month} year {year}. The sun rises at {hourrise} hour {minrise} minute. The sun sets at {hourset} hour {minset} minute. Average temperature is {temp) } degrees Celsius. Air pressure is {pressure} Pascals. Humidity is {humidity}%. It's {weather} outside.",
+        "The sun rises at {hourrise} hour {minrise} minutes. The sun sets at {hourset} hour {minset} minutes. The average temperature is {temp} degrees Celsius. The air pressure is {pressure} Pascal hertz. Humidity is {humidity}%. It's {weather} outside.",
+        "Today is the day {day}. Average temperature is {temp} degrees Celsius. Humidity is {humidity}%. It's {weather} outside.",
+        "Forecast for day {day}. Average temperature is {temp} degrees Celsius. It's {weather} outside.",
+        "It's {weather} outside."
+      ]
+    }
+  ]
+}
